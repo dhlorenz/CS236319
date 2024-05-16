@@ -103,7 +103,8 @@ fun f (a:{s: int, r: int}) = {s: (#s a), r: (#r a)};
 ```
 <!-- .element: data-thebe-executable-sml data-language="text/x-ocaml" -->
 
-NOTE: `:` denotes type, we need to use `=` in the returned expression to denote a value. another common error: `{{(#s a), (#r a)}`
+NOTE: `:` denotes type, we need to use `=` in the returned expression to denote a value. another common error:
+`{{(#s a), (#r a)}`
 
 <!--vert-->
 
@@ -166,4 +167,3 @@ fun a() = b() and fun b() = a()
 <!-- .element: data-thebe-executable-sml data-language="text/x-ocaml" -->
 
 NOTE: we don't repeat the `fun` keyword after `and`. ditto for `val`, `datatype`.
-  
