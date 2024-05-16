@@ -254,11 +254,11 @@ define the predicate `maybe_once/1` that accepts a predicate and succeeds at mos
 
 for example, for the dataset:
 ```prolog
-ta(adi).
+ta(yair).
 ta(andrey).
 ```
 <!-- .element: data-thebe-executable-prolog data-language="text/x-prolog" -->
-and for the goal `maybe_once(ta(X))`, we would expect to get `X = adi`.
+and for the goal `maybe_once(ta(X))`, we would expect to get `X = yair`.
 
 <!--vert-->
 
