@@ -1,9 +1,10 @@
 name: Build and Deploy
 
 on:
+  # Runs on pushes targeting the default branch
   push:
     branches:
-      - master  # Change this to the branch you want to trigger the workflow on
+      - master
 
 jobs:
   build:
