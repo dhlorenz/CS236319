@@ -258,7 +258,7 @@ ta(yair).
 ta(andrey).
 ```
 <!-- .element: data-thebe-executable-prolog data-language="text/x-prolog" -->
-and for the goal `maybe_once(ta(X))`, we would expect to get `X = yair.`.
+and for the goal `maybe_once(ta(X))`, we would expect to get `X = yair`.
 
 <!--vert-->
 
@@ -318,7 +318,7 @@ this is because `->/2` does not discard the second clause.
 it is possible to define an "else" branch, for example:
 
 ```prolog
-grade(X, Y) :- X #>= 100 -> Y = 100 ; Y = X.
+grade(X, Y) :- X >= 100 -> Y = 100 ; Y = X.
 ```
 <!-- .element: data-thebe-executable-prolog data-language="text/x-prolog" -->
 

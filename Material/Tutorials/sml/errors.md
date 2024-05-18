@@ -166,4 +166,3 @@ fun a() = b() and fun b() = a()
 <!-- .element: data-thebe-executable-sml data-language="text/x-ocaml" -->
 
 NOTE: we don't repeat the `fun` keyword after `and`. ditto for `val`, `datatype`.
-  
