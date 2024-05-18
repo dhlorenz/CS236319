@@ -1,5 +1,5 @@
 title: PL
-description: 236319 Spring 202x, Prof. Lorenz "{{ site.github.repository_name }}"
+description: 236319 Spring 202x, Prof. Lorenz `{{ site.github.repository_name }}`
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-tactile
