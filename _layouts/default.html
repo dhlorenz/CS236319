@@ -21,6 +21,13 @@
         <header>
           <h1>{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
 	  <h2>{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+	  <h2>
+{% if site.github.repository_name == "PL-236319-Spr-2024" %}
+		  236319 Spring 202x, Prof. Lorenz (2023)
+{% else %}
+		  236319 Spring 202x, Prof. Lorenz (2024)
+{% endif %}
+	  </h2>
         </header>
         <section id="downloads" class="clearfix">
           {% if site.show_downloads %}
