@@ -1,6 +1,5 @@
 title: PL
-ydescription: repository_description
-xdescription: 236319 Spring 202x, Prof. Lorenz {{ site.github.repository_name }}
+description: "236319 Spring 202x, Prof. Lorenz {{ site.github.repository_name }}"
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-tactile
@@ -12,9 +11,3 @@ relative_links:
 include:
   - README.md
 notheme: jekyll-theme-cayman
-
-defaults:
-  - scope:
-    path: "" # Apply to all files
-values:
-    description: "236319 Spring 202x, Prof. Lorenz {{ site.github.repository_name }}"
