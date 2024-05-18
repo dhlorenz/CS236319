@@ -26,7 +26,7 @@
 {% elsif site.github.repository_name == "PL-236319-Spr-2024" %}
 	  <h2>236319 Spring 2024, Prof. Lorenz</h2>
 {% else %}
-	  <h2>236319 Spring 202x, Prof. Lorenz </h2>
+	  <h2>236319, Prof. Lorenz </h2>
 {% endif %}
         </header>
         <section id="downloads" class="clearfix">
@@ -51,7 +51,7 @@
         {% if site.github.is_project_page %}
           {{ site.title | default: site.github.repository_name }} is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a><br>
         {% endif %}
-	This page was generated for 236319 Spr 2023. ({{ site.github.repository_name }})
+	This page was generated for {{ site.github.repository_name }}.
         </footer>
 
       </div>
