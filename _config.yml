@@ -1,7 +1,6 @@
 title: PL
+description: repository_description
 xdescription: 236319 Spring 202x, Prof. Lorenz {{ site.github.repository_name }}
-description: 
-  layout: repository_description
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-tactile
